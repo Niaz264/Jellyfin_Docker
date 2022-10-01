@@ -11,6 +11,4 @@ services:
       - /path/to/media:/media
       - /path/to/media2:/media2:ro
     restart: "unless-stopped"
-    # Optional - alternative address used for autodiscovery
-    environment:
-      - JELLYFIN_PublishedServerUrl=http://example.com
+    
